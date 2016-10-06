@@ -10,5 +10,8 @@
 
 @interface UIColor (JC)
 
-+(UIColor *)randomColor;
++ (UIColor *)randomColor;
++ (UIColor*) mColorForHex:(NSInteger)hexValue alpha:(CGFloat)alphaValue;
++ (UIColor*) mColorForHex:(NSInteger)hexValue;
+
 @end

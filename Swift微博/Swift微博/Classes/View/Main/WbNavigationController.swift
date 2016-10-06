@@ -9,27 +9,33 @@
 import UIKit
 
 class WbNavigationController: UINavigationController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationBar.isHidden = true;
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func pushViewController(_ viewController: UIViewController, animated: Bool) {
+        if childViewControllers.count > 0 {
+            viewController.hidesBottomBarWhenPushed = true
+            //判断控制器类型
+            if let vc = viewController as? WbBaseViewController{
+                var title = "返回"
+                //判断控制器的级数，只有一个控制器的时候，显示底层控制器的标题
+                if childViewControllers.count == 1 {
+                    title = childViewControllers.first?.title ?? "返回"
+                }
+                
+                vc.navItem.leftBarButtonItem = UIBarButtonItem(title: title, taget: self, action: #selector(popBack) ,isBack : true)
+            }
+            
+        }
+        super.pushViewController(viewController, animated: true)
+        
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    //返回上一级控制器
+   @objc private func popBack() {
+        popViewController(animated: true)
     }
-    */
 
 }

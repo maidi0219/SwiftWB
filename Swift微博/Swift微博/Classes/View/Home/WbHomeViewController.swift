@@ -10,26 +10,20 @@ import UIKit
 
 class WbHomeViewController: WbBaseViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @objc func showFriend(){
+        let vc = WbTempViewController()
+        navigationController?.pushViewController(vc, animated: true)
+        
     }
+}
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+extension WbHomeViewController{
+    override func setupUI() {
+        super.setupUI()
+//        navigationItem.leftBarButtonItem = UIBarButtonItem (title: "好朋友s", style: .plain, target: self, action: #selector(showFriend))
+        
+        //使用自定义的导航条item
+        navItem.leftBarButtonItem = UIBarButtonItem.init(title: "添加好友", taget: self, action: #selector(showFriend))
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

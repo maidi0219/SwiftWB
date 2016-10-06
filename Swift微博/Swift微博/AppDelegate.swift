@@ -14,11 +14,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        window = UIWindow();
-        window?.backgroundColor = UIColor.whiteColor();
-        window?.rootViewController = WbMainTableViewController();
+        window = UIWindow(frame:UIScreen.main.bounds);
+        window?.backgroundColor = UIColor.white;
+        window?.rootViewController = WbMainTabarViewController();
         window?.makeKeyAndVisible();
         return true
         
