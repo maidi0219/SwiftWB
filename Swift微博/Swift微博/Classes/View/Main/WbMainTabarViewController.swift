@@ -14,8 +14,15 @@ class WbMainTabarViewController: UITabBarController {
         setupChildController()
         setupComposeButton()
     }
+//    为嘛不能用
+//    override func supportedInterfaceOrientations() -> UIInterfaceOrientationMask{
+//        return .portrait
+//    }
+
     @objc fileprivate func composeStatus(){
-        print("写微博");
+        let vc : UIViewController = UIViewController()
+        vc.view.backgroundColor = UIColor.random()
+        present(vc ,animated: true, completion: nil)
     }
     fileprivate lazy var composeButton: UIButton = UIButton().setupImage( "tabbar_compose_icon_add",bGImgName :"tabbar_compose_button_os7")
     

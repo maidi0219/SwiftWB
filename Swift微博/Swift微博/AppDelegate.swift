@@ -12,10 +12,9 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
+    var blockRotation: Bool = false
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
         window = UIWindow(frame:UIScreen.main.bounds);
         window?.backgroundColor = UIColor.white;
         window?.rootViewController = WbMainTabarViewController();
@@ -23,7 +22,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true
         
     }
+    func application(_: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        if self.blockRotation{
+            return UIInterfaceOrientationMask.all
+        } else {
+            return UIInterfaceOrientationMask.portrait
+        }
+    }
 
-
-
+    //func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+   //     return UIInterfaceOrientationMask.portrait
+   // }
 }
