@@ -38,6 +38,7 @@ class WbBaseViewController: UIViewController {
 
 extension WbBaseViewController{
     func setupUI() {
+        automaticallyAdjustsScrollViewInsets = false
         let color: UIColor = UIColor.random();
         view.backgroundColor = color
         setupNaviBar(color: color)
@@ -56,7 +57,7 @@ extension WbBaseViewController{
     }
     func setupTableView() {
         tableView = UITableView(frame: view.bounds, style: .plain)
-        tableView?.contentInset = UIEdgeInsetsMake(44, 0, 0, 0)
+        tableView?.contentInset = UIEdgeInsetsMake(navBar.bounds.height, 0, tabBarController?.tabBar.bounds.height ?? 49, 0)
         view .insertSubview(tableView!, belowSubview: navBar)
         tableView?.delegate = self
         tableView?.dataSource = self
