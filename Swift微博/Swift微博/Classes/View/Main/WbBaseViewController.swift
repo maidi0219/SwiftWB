@@ -38,6 +38,7 @@ class WbBaseViewController: UIViewController {
 
 extension WbBaseViewController{
     func setupUI() {
+        print("master")
         automaticallyAdjustsScrollViewInsets = false
         let color: UIColor = UIColor.random();
         view.backgroundColor = color
