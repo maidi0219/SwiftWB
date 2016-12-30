@@ -13,8 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     var blockRotation: Bool = false
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        print("123");
         window = UIWindow(frame:UIScreen.main.bounds);
         window?.backgroundColor = UIColor.white;
         window?.rootViewController = WbMainTabarViewController();
