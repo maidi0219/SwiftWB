@@ -24,7 +24,6 @@ class WbHomeViewController: WbBaseViewController {
     }
     
     @objc func showFriend(){
-        print("git test02")
         let vc = WbTempViewController()
         navigationController?.pushViewController(vc, animated: true)
         
