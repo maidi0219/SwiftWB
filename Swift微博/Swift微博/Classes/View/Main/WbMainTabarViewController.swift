@@ -41,40 +41,59 @@ extension WbMainTabarViewController{
     }
     
     fileprivate func setupChildController(){
-        let array = [
-            ["clsName": "WbHomeViewController" ,
-                "imageName": "tabbar_home-1" ,
-                "title": "首页"],
-            ["clsName": "WbMessageViewController" ,
-                "imageName": "tabbar_message_center" ,
-                "title": "消息"],
-            ["clsName": "UIViewController" ],
-            
-            ["clsName": "WbDiscoverViewController" ,
-                "imageName": "tabbar_discover" ,
-                "title": "发现"],
-            ["clsName": "WbProfileViewController" ,
-                "imageName": "tabbar_profile" ,
-                "title": "我"]
-        ]
+        
+        guard let path = Bundle.main.path(forResource: "main.json", ofType: nil),
+               let data = NSData(contentsOfFile: path),
+        let array = try? JSONSerialization.jsonObject(with: data as Data, options: []) as? [[NSString :Any]]
+
+        else{
+            return
+        }
+        
+//        let array:[[String :Any]] = [
+//            ["clsName": "WbHomeViewController"  ,
+//                "imageName": "tabbar_home-1"  ,
+//                "title": "首页" ,
+//                "visitorDic": ["iamgeName": "","message": "快来登录呀，好多精彩段子哟"]],
+//            ["clsName": "WbMessageViewController" ,
+//                "imageName": "tabbar_message_center" ,
+//                "title": "消息",
+//                "visitorDic": ["iamgeName": "tabbar_message_center","message": "快来call呀，好多精彩段子哟"]],
+//            ["clsName": "UIViewController" ],
+//            
+//            ["clsName": "WbDiscoverViewController" ,
+//                "imageName": "tabbar_discover" ,
+//                "title": "发现",
+//                "visitorDic": ["iamgeName": "tabbar_discover","message": "快来发现呀，好多精彩段子哟"]],
+//            ["clsName": "WbProfileViewController" ,
+//                "imageName": "tabbar_profile" ,
+//                "title": "我",
+//                "visitorDic": ["iamgeName": "tabbar_profile","message": "快来看我呀，好多精彩段子哟"]]
+//        ]
+//        let data  = try! JSONSerialization.data(withJSONObject: array,
+//                                                options: [.prettyPrinted])
+//        (data as NSData).write(toFile: "Users/LXL/Desktop/demo.json",atomically:true)
+        
         var vcArray : Array = [UIViewController]()
-        for dic in array{
-            let vc = controller(dic);
+        for dic in array!{
+            let vc = controller(dic as [String : Any]);
             vcArray.append(vc)
         }
         viewControllers = vcArray
     }
     
-    fileprivate func controller(_ dict:[String: String]) -> UIViewController{
-        guard let clsName = dict["clsName"],
-            let title = dict["title"],
-            let imageName = dict["imageName"],
-            let cls = NSClassFromString(Bundle.main.nameSpace + clsName ) as? UIViewController.Type else{
+    fileprivate func controller(_ dict:[String: Any]) -> UIViewController{
+        guard let clsName = dict["clsName"] as? String,
+            let title = dict["title"] as? String,
+            let imageName = dict["imageName"] as? String,
+            let cls = NSClassFromString(Bundle.main.nameSpace + clsName ) as? WbBaseViewController.Type,
+        let visitorDic = dict["visitorDic"] as? [String :String] else{
                 return UIViewController()
                 
         }
         let vc = cls.init()
         vc.title = title
+        vc.visitorViewDic = visitorDic
         vc.tabBarItem.image = UIImage(named: imageName)
         vc.tabBarItem.selectedImage = UIImage(named:imageName + "_selected")?.withRenderingMode(.alwaysOriginal)
         vc.tabBarItem.setTitleTextAttributes(

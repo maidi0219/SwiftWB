@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C5423C321DF4037E00D7A048 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C5423C311DF4037E00D7A048 /* UIImageView+CornerRadius.m */; };
+		C5423C331DF404AA00D7A048 /* UIImageView+CornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = C5423C311DF4037E00D7A048 /* UIImageView+CornerRadius.m */; };
 		C551418D1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551418C1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift */; };
 		C55759B81DA2A8EB003B47AF /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55759B71DA2A8EB003B47AF /* UIButton+Extensions.swift */; };
+		C55B05F51DB3BAD900A894D0 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55B05F41DB3BAD900A894D0 /* UILabel+Extensions.swift */; };
+		C55B05F61DB3BAD900A894D0 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55B05F41DB3BAD900A894D0 /* UILabel+Extensions.swift */; };
 		C59443931DA3891B00CACFD6 /* WbTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59443921DA3891B00CACFD6 /* WbTempViewController.swift */; };
+		C5D10F061DB38040008799BC /* WbVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D10F051DB38040008799BC /* WbVisitorView.swift */; };
 		C5D789F11DA1F86C009E152F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D789F01DA1F86C009E152F /* AppDelegate.swift */; };
 		C5D789F81DA1F86C009E152F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D789F71DA1F86C009E152F /* Assets.xcassets */; };
 		C5D78A111DA1F86C009E152F /* Swift__UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A101DA1F86C009E152F /* Swift__UITests.swift */; };
@@ -22,6 +27,24 @@
 		C5D78A451DA2052A009E152F /* WbProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A441DA2052A009E152F /* WbProfileViewController.swift */; };
 		C5D78A4D1DA20F60009E152F /* UIColor+JC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A4C1DA20F60009E152F /* UIColor+JC.m */; };
 		C5D78A541DA21A14009E152F /* NSBundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A531DA21A14009E152F /* NSBundle+Extensions.swift */; };
+		C5E9DE811DB386A600CA4E51 /* WbDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A401DA20503009E152F /* WbDiscoverViewController.swift */; };
+		C5E9DE821DB386A600CA4E51 /* WbProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A441DA2052A009E152F /* WbProfileViewController.swift */; };
+		C5E9DE831DB386A600CA4E51 /* WbMessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A421DA20519009E152F /* WbMessageViewController.swift */; };
+		C5E9DE841DB386A600CA4E51 /* WbNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A381DA1FE7F009E152F /* WbNavigationController.swift */; };
+		C5E9DE851DB386A600CA4E51 /* UIColor+JC.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A4C1DA20F60009E152F /* UIColor+JC.m */; };
+		C5E9DE861DB386A600CA4E51 /* WbMainTabarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A361DA1FE3D009E152F /* WbMainTabarViewController.swift */; };
+		C5E9DE871DB386A600CA4E51 /* WbBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A3A1DA1FEE0009E152F /* WbBaseViewController.swift */; };
+		C5E9DE881DB386A600CA4E51 /* UIBarButtonItem+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C551418C1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift */; };
+		C5E9DE891DB386A600CA4E51 /* WbTempViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C59443921DA3891B00CACFD6 /* WbTempViewController.swift */; };
+		C5E9DE8A1DB386A600CA4E51 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D789F01DA1F86C009E152F /* AppDelegate.swift */; };
+		C5E9DE8B1DB386A600CA4E51 /* WbVisitorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D10F051DB38040008799BC /* WbVisitorView.swift */; };
+		C5E9DE8C1DB386A600CA4E51 /* NSBundle+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A531DA21A14009E152F /* NSBundle+Extensions.swift */; };
+		C5E9DE8D1DB386A600CA4E51 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C55759B71DA2A8EB003B47AF /* UIButton+Extensions.swift */; };
+		C5E9DE8E1DB386A600CA4E51 /* WbHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5D78A3E1DA20471009E152F /* WbHomeViewController.swift */; };
+		C5E9DE911DB386A600CA4E51 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5D789F71DA1F86C009E152F /* Assets.xcassets */; };
+		C5E9DE9C1DB38F5A00CA4E51 /* Swift微博Free-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C5E9DE9B1DB38F5A00CA4E51 /* Swift微博Free-Info.plist */; };
+		C5F071CB1DBC5C3200E29140 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F071CA1DBC5C3200E29140 /* main.json */; };
+		C5F071CC1DBC5C3200E29140 /* main.json in Resources */ = {isa = PBXBuildFile; fileRef = C5F071CA1DBC5C3200E29140 /* main.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +65,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C5423C301DF4037E00D7A048 /* UIImageView+CornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+CornerRadius.h"; sourceTree = "<group>"; };
+		C5423C311DF4037E00D7A048 /* UIImageView+CornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+CornerRadius.m"; sourceTree = "<group>"; };
 		C551418C1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIBarButtonItem+Extensions.swift"; sourceTree = "<group>"; };
 		C55759B71DA2A8EB003B47AF /* UIButton+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		C55B05F41DB3BAD900A894D0 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
 		C59443921DA3891B00CACFD6 /* WbTempViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WbTempViewController.swift; sourceTree = "<group>"; };
+		C5D10F051DB38040008799BC /* WbVisitorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WbVisitorView.swift; path = ../WbVisitorView.swift; sourceTree = "<group>"; };
 		C5D789ED1DA1F86C009E152F /* Swift微博.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift微博.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5D789F01DA1F86C009E152F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5D789F71DA1F86C009E152F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -65,6 +92,9 @@
 		C5D78A4B1DA20F60009E152F /* UIColor+JC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JC.h"; sourceTree = "<group>"; };
 		C5D78A4C1DA20F60009E152F /* UIColor+JC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JC.m"; sourceTree = "<group>"; };
 		C5D78A531DA21A14009E152F /* NSBundle+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSBundle+Extensions.swift"; sourceTree = "<group>"; };
+		C5E9DE951DB386A600CA4E51 /* Swift微博Free.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift微博Free.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5E9DE9B1DB38F5A00CA4E51 /* Swift微博Free-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Swift微博Free-Info.plist"; sourceTree = "<group>"; };
+		C5F071CA1DBC5C3200E29140 /* main.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = main.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,13 +119,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5E9DE8F1DB386A600CA4E51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C5D10F071DB38066008799BC /* 访客视图 */ = {
+			isa = PBXGroup;
+			children = (
+				C5D10F051DB38040008799BC /* WbVisitorView.swift */,
+			);
+			path = "访客视图";
+			sourceTree = "<group>";
+		};
 		C5D789E41DA1F86C009E152F = {
 			isa = PBXGroup;
 			children = (
 				C5D789EF1DA1F86C009E152F /* Swift微博 */,
+				C5E9DE9A1DB38F5A00CA4E51 /* Swift微博Free */,
 				C5D78A041DA1F86C009E152F /* Swift微博Tests */,
 				C5D78A0F1DA1F86C009E152F /* Swift微博UITests */,
 				C5D789EE1DA1F86C009E152F /* Products */,
@@ -108,6 +154,7 @@
 				C5D789ED1DA1F86C009E152F /* Swift微博.app */,
 				C5D78A011DA1F86C009E152F /* Swift微博Tests.xctest */,
 				C5D78A0C1DA1F86C009E152F /* Swift微博UITests.xctest */,
+				C5E9DE951DB386A600CA4E51 /* Swift微博Free.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,6 +164,7 @@
 			children = (
 				C5D78A271DA1FC32009E152F /* Classes */,
 				C5D789F01DA1F86C009E152F /* AppDelegate.swift */,
+				C5F071CA1DBC5C3200E29140 /* main.json */,
 				C5D78A461DA209B8009E152F /* Wb_Bridge.h */,
 				C5D789F71DA1F86C009E152F /* Assets.xcassets */,
 				C5D789FC1DA1F86C009E152F /* Info.plist */,
@@ -210,6 +258,7 @@
 				C5D78A381DA1FE7F009E152F /* WbNavigationController.swift */,
 				C5D78A3A1DA1FEE0009E152F /* WbBaseViewController.swift */,
 				C59443921DA3891B00CACFD6 /* WbTempViewController.swift */,
+				C5D10F071DB38066008799BC /* 访客视图 */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -235,6 +284,8 @@
 			children = (
 				C5D78A4B1DA20F60009E152F /* UIColor+JC.h */,
 				C5D78A4C1DA20F60009E152F /* UIColor+JC.m */,
+				C5423C301DF4037E00D7A048 /* UIImageView+CornerRadius.h */,
+				C5423C311DF4037E00D7A048 /* UIImageView+CornerRadius.m */,
 			);
 			path = Categroy;
 			sourceTree = "<group>";
@@ -244,9 +295,18 @@
 			children = (
 				C5D78A531DA21A14009E152F /* NSBundle+Extensions.swift */,
 				C55759B71DA2A8EB003B47AF /* UIButton+Extensions.swift */,
+				C55B05F41DB3BAD900A894D0 /* UILabel+Extensions.swift */,
 				C551418C1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		C5E9DE9A1DB38F5A00CA4E51 /* Swift微博Free */ = {
+			isa = PBXGroup;
+			children = (
+				C5E9DE9B1DB38F5A00CA4E51 /* Swift微博Free-Info.plist */,
+			);
+			path = "Swift微博Free";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -305,6 +365,23 @@
 			productReference = C5D78A0C1DA1F86C009E152F /* Swift微博UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		C5E9DE7F1DB386A600CA4E51 /* Swift微博Free */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5E9DE921DB386A600CA4E51 /* Build configuration list for PBXNativeTarget "Swift微博Free" */;
+			buildPhases = (
+				C5E9DE801DB386A600CA4E51 /* Sources */,
+				C5E9DE8F1DB386A600CA4E51 /* Frameworks */,
+				C5E9DE901DB386A600CA4E51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift微博Free";
+			productName = "Swift微博";
+			productReference = C5E9DE951DB386A600CA4E51 /* Swift微博Free.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -344,9 +421,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5D789EC1DA1F86C009E152F /* Swift微博 */,
 				C5D78A001DA1F86C009E152F /* Swift微博Tests */,
 				C5D78A0B1DA1F86C009E152F /* Swift微博UITests */,
+				C5D789EC1DA1F86C009E152F /* Swift微博 */,
+				C5E9DE7F1DB386A600CA4E51 /* Swift微博Free */,
 			);
 		};
 /* End PBXProject section */
@@ -356,6 +434,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5F071CB1DBC5C3200E29140 /* main.json in Resources */,
 				C5D789F81DA1F86C009E152F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -374,6 +453,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C5E9DE901DB386A600CA4E51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F071CC1DBC5C3200E29140 /* main.json in Resources */,
+				C5E9DE911DB386A600CA4E51 /* Assets.xcassets in Resources */,
+				C5E9DE9C1DB38F5A00CA4E51 /* Swift微博Free-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -387,11 +476,14 @@
 				C5D78A391DA1FE7F009E152F /* WbNavigationController.swift in Sources */,
 				C5D78A4D1DA20F60009E152F /* UIColor+JC.m in Sources */,
 				C5D78A371DA1FE3D009E152F /* WbMainTabarViewController.swift in Sources */,
+				C55B05F51DB3BAD900A894D0 /* UILabel+Extensions.swift in Sources */,
 				C5D78A3B1DA1FEE0009E152F /* WbBaseViewController.swift in Sources */,
 				C551418D1DA54C5F00A9AAF0 /* UIBarButtonItem+Extensions.swift in Sources */,
 				C59443931DA3891B00CACFD6 /* WbTempViewController.swift in Sources */,
 				C5D789F11DA1F86C009E152F /* AppDelegate.swift in Sources */,
+				C5D10F061DB38040008799BC /* WbVisitorView.swift in Sources */,
 				C5D78A541DA21A14009E152F /* NSBundle+Extensions.swift in Sources */,
+				C5423C321DF4037E00D7A048 /* UIImageView+CornerRadius.m in Sources */,
 				C55759B81DA2A8EB003B47AF /* UIButton+Extensions.swift in Sources */,
 				C5D78A3F1DA20471009E152F /* WbHomeViewController.swift in Sources */,
 			);
@@ -409,6 +501,29 @@
 			buildActionMask = 2147483647;
 			files = (
 				C5D78A111DA1F86C009E152F /* Swift__UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5E9DE801DB386A600CA4E51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5E9DE811DB386A600CA4E51 /* WbDiscoverViewController.swift in Sources */,
+				C5E9DE821DB386A600CA4E51 /* WbProfileViewController.swift in Sources */,
+				C5E9DE831DB386A600CA4E51 /* WbMessageViewController.swift in Sources */,
+				C5E9DE841DB386A600CA4E51 /* WbNavigationController.swift in Sources */,
+				C5E9DE851DB386A600CA4E51 /* UIColor+JC.m in Sources */,
+				C5E9DE861DB386A600CA4E51 /* WbMainTabarViewController.swift in Sources */,
+				C55B05F61DB3BAD900A894D0 /* UILabel+Extensions.swift in Sources */,
+				C5E9DE871DB386A600CA4E51 /* WbBaseViewController.swift in Sources */,
+				C5E9DE881DB386A600CA4E51 /* UIBarButtonItem+Extensions.swift in Sources */,
+				C5E9DE891DB386A600CA4E51 /* WbTempViewController.swift in Sources */,
+				C5E9DE8A1DB386A600CA4E51 /* AppDelegate.swift in Sources */,
+				C5E9DE8B1DB386A600CA4E51 /* WbVisitorView.swift in Sources */,
+				C5E9DE8C1DB386A600CA4E51 /* NSBundle+Extensions.swift in Sources */,
+				C5423C331DF404AA00D7A048 /* UIImageView+CornerRadius.m in Sources */,
+				C5E9DE8D1DB386A600CA4E51 /* UIButton+Extensions.swift in Sources */,
+				C5E9DE8E1DB386A600CA4E51 /* WbHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,9 +634,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = TARGET_VERSION_Pro;
 				INFOPLIST_FILE = "Swift微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG -DTARGET_VERSION_Pro";
 				PRODUCT_BUNDLE_IDENTIFIER = "CNIT.Swift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Swift微博/Wb_Bridge.h";
@@ -534,9 +651,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				INFOPLIST_FILE = "Swift微博/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "CNIT.Swift--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Swift微博/Wb_Bridge.h";
@@ -596,6 +715,42 @@
 			};
 			name = Release;
 		};
+		C5E9DE931DB386A600CA4E51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = TARGET_VERSION_Free;
+				INFOPLIST_FILE = "Swift微博Free/Swift微博Free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "-DDEBUG -DTARGET_VERSION_Free";
+				PRODUCT_BUNDLE_IDENTIFIER = "CNIT.Swift--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift微博/Wb_Bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C5E9DE941DB386A600CA4E51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				INFOPLIST_FILE = "Swift微博Free/Swift微博Free-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_SWIFT_FLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "CNIT.Swift--";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift微博/Wb_Bridge.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -631,6 +786,15 @@
 			buildConfigurations = (
 				C5D78A1C1DA1F86C009E152F /* Debug */,
 				C5D78A1D1DA1F86C009E152F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5E9DE921DB386A600CA4E51 /* Build configuration list for PBXNativeTarget "Swift微博Free" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5E9DE931DB386A600CA4E51 /* Debug */,
+				C5E9DE941DB386A600CA4E51 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

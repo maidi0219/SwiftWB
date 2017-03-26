@@ -4,35 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Swift微博.xcscheme</key>
+		<key>Swift圆角.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>Swift微博Free.xcscheme</key>
-		<dict>
-			<key>orderHint</key>
-			<integer>1</integer>
-		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>C5D789EC1DA1F86C009E152F</key>
+		<key>C5019A651E055CC400842671</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5D78A001DA1F86C009E152F</key>
+		<key>C5019A791E055CC400842671</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C5D78A0B1DA1F86C009E152F</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C5E9DE7F1DB386A600CA4E51</key>
+		<key>C5019A841E055CC400842671</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -1,0 +1,41 @@
+[
+  {
+    "visitorDic" : {
+      "message" : "快来登录呀，好多精彩段子哟",
+      "iamgeName" : ""
+    },
+    "clsName" : "WbHomeViewController",
+    "title" : "首页",
+    "imageName" : "tabbar_home-1"
+  },
+  {
+    "visitorDic" : {
+      "message" : "快来call呀，好多精彩段子哟",
+      "iamgeName" : "tabbar_message_center"
+    },
+    "clsName" : "WbMessageViewController",
+    "title" : "消息",
+    "imageName" : "tabbar_message_center"
+  },
+  {
+    "clsName" : "UIViewController"
+  },
+  {
+    "visitorDic" : {
+      "message" : "快来发现呀，好多精彩段子哟",
+      "iamgeName" : "tabbar_discover"
+    },
+    "clsName" : "WbDiscoverViewController",
+    "title" : "发现",
+    "imageName" : "tabbar_discover"
+  },
+  {
+    "visitorDic" : {
+      "message" : "快来看我呀，好多精彩段子哟",
+      "iamgeName" : "tabbar_profile"
+    },
+    "clsName" : "WbProfileViewController",
+    "title" : "我",
+    "imageName" : "tabbar_profile"
+  }
+]

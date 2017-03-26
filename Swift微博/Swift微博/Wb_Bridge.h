@@ -6,4 +6,4 @@
 //  Copyright © 2016年 com.cnit. All rights reserved.
 //
 #import "UIColor+JC.h"
-
+#import "UIImageView+CornerRadius.h"
